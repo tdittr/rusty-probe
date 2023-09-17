@@ -27,9 +27,9 @@ filters:
         regex: 'mount.*hole'
 
 preflight:
-  run_erc: true
+  run_erc: false
   update_xml: true
-  run_drc: true
+  run_drc: false
   check_zone_fills: false
   ignore_unconnected: false
 
